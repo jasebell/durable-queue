@@ -8,7 +8,7 @@ This fork implements a modification by [Ryan Sundbery](https://github.com/sundbr
 ### usage
 
 ```clj
-[factual/durable-queue "0.1.5"]
+[jasebell/durable-queue "0.1.7"]
 ```
 
 To interact with queues, first create a `queues` object by specifying a directory in the filesystem and an options map:
