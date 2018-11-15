@@ -2,6 +2,9 @@
 
 This library implements a disk-backed task queue, allowing for queues that can survive processes dying, and whose size is bounded by available disk rather than memory.  It is a small, purely-Clojure implementation focused entirely on the in-process use case, meaning that it is both simpler and more easily embedded than network-aware queue implementations such as Kafka and ActiveMQ.
 
+
+This fork implements a modification by [Ryan Sundbery](https://github.com/sundbry) which enables queue deletion by name, rather than deleting the whole queue.
+
 ### usage
 
 ```clj
